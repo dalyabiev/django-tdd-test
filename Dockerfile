@@ -1,4 +1,4 @@
-FROM python:latest
+FROM python:alpine
 LABEL Maintainer="Denis Alyabiev Ltd" 
 
 ENV PYTHONUNBUFFERED =1 
