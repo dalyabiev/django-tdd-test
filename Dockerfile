@@ -10,5 +10,5 @@ RUN mkdir /app
 WORKDIR /app
 COPY ./app /app
 
-RUN adduser --disabled-login --disabled-password user
+RUN adduser --disabled-password user
 USER user

@@ -1,6 +1,6 @@
 language: python
 python:
-  - "latest"
+  - "alpine"
 
 services:
   - docker
